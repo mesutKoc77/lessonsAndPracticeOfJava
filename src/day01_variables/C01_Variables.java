@@ -49,6 +49,8 @@ public class C01_Variables {
 
          */
 
+        //eşitliğin önce sagı bize degeri verir ve solu da bizim de atama yapacagımzı variable ı verir
+
 
 
 

@@ -18,7 +18,7 @@ public class C04_Increment {
 
         a +=b;
 
-        System.out.println("a'nın değeri: " +a + " b'nin değeri : " +b);
+        System.out.println("a'nın değeri mi: " +a + " b'nin değeri : " +b);
 
         a --;
         b ++;
@@ -32,15 +32,6 @@ public class C04_Increment {
         b*=3;
 
         System.out.println("a'nın değeri: " +a + " b'nin değeri : " +b);
-
-
-
-
-
-
-
-
-
 
     }
 }

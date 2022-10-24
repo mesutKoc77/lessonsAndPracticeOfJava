@@ -38,8 +38,8 @@ public class C05_IfStatements {
 
         int num=10;
 
-        num+=3 demek num a 3 ekle ve numa eşitle
-        num-=5 ise numdan 5 çıkar num a ekle.
+        num+=3 demek num a 3 ekle ve numa eşitle, 13
+        num-=5 ise numdan 5 çıkar num a eşitle. 5
         num-- demek num dan bir çıkart
         num++ demek numa bir ekle demek
 
@@ -49,46 +49,7 @@ public class C05_IfStatements {
         nam++; ya da num+=1;
         */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
 
     }
 

@@ -4,7 +4,6 @@ public class C05_Pre_Post_Increment {
     public static void main(String[] args) {
 
         int a=10;
-
         System.out.println(a++); //10
         System.out.println(a);//11
 
@@ -39,21 +38,6 @@ public class C05_Pre_Post_Increment {
         int d=c++;
 
         System.out.println( "c nin değeri " + c + "d nin değeri :" + d); //c=12 d=11
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

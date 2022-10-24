@@ -120,7 +120,7 @@ public class C02_BasitIfCumleleri {
         //nin true olmaası yetıyor ama ıkısı false olursa sonuc false. sonuç olarak or, sadece iki ikisi de false
         //ise sonucu false yapar, diğer tum durumlardasonuc durudur.
 
-        //1:26
+
 
         boolean c;
 
@@ -266,15 +266,7 @@ public class C02_BasitIfCumleleri {
         Mesut
   1:39 PM
 hocam boolean ı tam olarak anlayamadım, sadece if gibi mantıksal ifadelerde veya yapılarda mi kullanılıyor? tam mantıgını kavramak için ne yapmam gerekıyor.
-white_check_mark
-eyes
-raised_hands
 
-
-
-
-
-New
 
 
 Ahmet Bulutluoz

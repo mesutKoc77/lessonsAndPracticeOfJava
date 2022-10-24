@@ -19,16 +19,5 @@ public class C06_Pre_Post_Increment {
 
         System.out.println("Son toplam : " + (a+b+c)); //47
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

@@ -54,13 +54,6 @@ public class C03_NestedIfElseEmeklilik1 {
          */
 
 
-
-
-
-
-
-
-
     }
 
 }

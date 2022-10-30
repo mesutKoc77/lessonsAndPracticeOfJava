@@ -33,8 +33,10 @@ public class C04_NestedIfElseif_Emeklilik2
         //erkeklerde Bayanlarda emekli olamaz ama ne kadar yıl oldugu soylenebilir.
         else if (yas<60)
         { if (cinsiyet=='B') {
-            System.out.println("emekli olmanıza"+ (60-yas) + "yıl daha var");} else if (cinsiyet=='E')
-            {System.out.println("emekli olmanıza"+ (65-yas) + "yıl daha var");} else System.out.println
+            System.out.println("emekli olmanıza"+ (60-yas) + "yıl daha var");}
+        else if (cinsiyet=='E')
+            {System.out.println("emekli olmanıza"+ (65-yas) + "yıl daha var");}
+        else System.out.println
                     ("Lutfen Bilgileri Kontrol Ediniz");}
 
         //bayanlar olur, erkekler olmaz

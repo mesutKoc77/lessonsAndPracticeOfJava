@@ -18,12 +18,5 @@ public class C05_IfElseStatements {
         } else {
             System.out.println(girilenHarf);}
 
-
-
-
-
-
-
-
     }
 }

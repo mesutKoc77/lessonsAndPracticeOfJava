@@ -10,6 +10,7 @@ public class C11_length {
 
         System.out.println(str.length());//35
 
+
         // bu string'in son karakterini yazdirin
 
         System.out.println(str.charAt(str.length()-1));//u//önceden ilk harfini bul dedigmiz için

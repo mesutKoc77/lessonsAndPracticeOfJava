@@ -20,5 +20,6 @@ public class C14_substring_terstenyazdirma {
 
 
 
+
     }
 }

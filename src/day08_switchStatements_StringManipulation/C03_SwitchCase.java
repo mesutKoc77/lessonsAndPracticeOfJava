@@ -13,7 +13,6 @@ public class C03_SwitchCase {
           hafta ici veya hafta sonu yazdirin
          */
 
-
         Scanner scanedilen=new Scanner(System.in);
         System.out.println("Lutfen gün ismi giriniz");
         String kullanicinilkgirdigideger=scanedilen.next();//kullanıcı ///1. önemli

@@ -22,6 +22,7 @@ public class C08_equals {
         System.out.println(kabulettigimdeger);//ben onu pazar olarak kabul edip, tüm metodu kucuk harf uzerine
         //bina edeyim ki aşağıda kucuk harfli olanları variable olarak atadım.
 
+
         if (kabulettigimdeger.equals("pazartesi") || kabulettigimdeger.equals("salı") ||
                 kabulettigimdeger.equals("çarşamba") || kabulettigimdeger.equals("perşembe") ||
         kabulettigimdeger.equals("cuma")) {
@@ -30,7 +31,6 @@ public class C08_equals {
             System.out.println("Belirttiginiz Gün Olan " + ilkyazilandeger + " Hafta Sonundadır" );}
         else {
             System.out.println("Verilen Bilgiler Hatalıdır");}
-
 
 
 

@@ -25,11 +25,5 @@ public class Ornekler {
 
         System.out.println(x + ", " +y+ ", " +z);
 
-
-
-
-
-
-
     }
 }

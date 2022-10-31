@@ -10,10 +10,12 @@ public class C12_substring {
 
         //va Guzeldir ifadesini yazdır.
 
+
         System.out.println(str.substring(2));//bu şu demek, str nin 2. indeksinden başlamak
         //kaydıyla bana dondur demek yani "va Guzeldir"
 
         //son 3 karakteri yazdır.
+
 
         System.out.println(str.substring(10));//dır//dinamik degıldır bu yontemi str degıısrse bu da
         //degısır

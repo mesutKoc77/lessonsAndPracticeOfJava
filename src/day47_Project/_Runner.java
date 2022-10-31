@@ -8,9 +8,6 @@ public class _Runner {
         Ogrenci.feykOgrenciEkle();
         Depo.anaMenu();
 
-
-
     }
-
 
 }

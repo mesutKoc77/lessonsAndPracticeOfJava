@@ -13,8 +13,5 @@ public class C01_repeat_trim {
 
         System.out.println(str);//Ali kos
 
-
-
-
     }
 }

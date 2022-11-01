@@ -30,17 +30,7 @@ public class ornek {
                 TatilMi=true;
                 System.out.println("yazdıgınız gun" +gunIsmi);
 
-
-
-
         }
-
-
-
-
-
-
-
 
 
     }

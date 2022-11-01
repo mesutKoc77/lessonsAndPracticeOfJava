@@ -62,16 +62,5 @@ public class C01_indexOfSoru {
         //kendin de bunu scanner a cevirebilrsin
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

@@ -39,11 +39,5 @@ public class C06_replaceAllSoru {
         geri kalanları da 1.karakterden başlyarak substring metodu ile aldık ve yıldızladık.
          */
 
-
-
-
-
-
-
     }
 }

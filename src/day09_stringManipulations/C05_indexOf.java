@@ -27,7 +27,8 @@ public class C05_indexOf {
         //ettigi değerden bir sonrası için bir attırıp yazacagız.
 
         System.out.println(str.indexOf("cok", 6));// cevap: 15 ...altı ve sonrasından  yani "ok guzel,cok."
-        // itibaren ara ve karşına gelen ilk "cok" un index ini soyle. birinci cok un index i 5 idi, burda fromindex 5 deseydik ki
+        // itibaren ara ve karşına gelen ilk "cok" un index ini soyle. birinci cok un index i 5 idi, burda fromindex
+        // 5 deseydik ki
         // fromindex kendisini dahil ederek başalttıgından yşne kendisini yazacak ikinciye gecemeyecektik. Dolayıysla bir
         // fazlasını aldık ve ara bul dedik
 
@@ -72,13 +73,6 @@ public class C05_indexOf {
 
         System.out.println(str2.indexOf('s', 5));//9//bunun anlamı şu: String in içinde çok fazla "s" var,
         //sen bana beşinci indeks ve sonrasında bulunan 's' nin toplam içindeki index karşılıgını ver.
-
-
-
-
-
-
-
 
     }
 }

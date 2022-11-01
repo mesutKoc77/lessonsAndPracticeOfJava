@@ -38,9 +38,5 @@ public class C03_replace {
         System.out.println(str.replace("Kemal", "Ali"));//Java ogren, offer' i kap//yani değiştirmez.
 
 
-
-
-
-
     }
 }

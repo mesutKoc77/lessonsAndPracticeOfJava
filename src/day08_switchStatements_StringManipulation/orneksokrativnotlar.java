@@ -58,25 +58,5 @@ public class orneksokrativnotlar {
         */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

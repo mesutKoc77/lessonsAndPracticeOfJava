@@ -47,7 +47,7 @@ public class C05_replaceAll {
 
         str=str.replaceAll("\\s+"," ");
 
-        System.out.println(str);
+        System.out.println(str);//Java Guzel bir programlama dili
 
 
 

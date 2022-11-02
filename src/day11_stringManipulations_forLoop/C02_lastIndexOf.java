@@ -1,5 +1,7 @@
 package day11_stringManipulations_forLoop;
 
+import java.util.Scanner;
+
 public class C02_lastIndexOf {
 
     public static void main(String[] args) {
@@ -43,11 +45,6 @@ public class C02_lastIndexOf {
             System.out.println("aradiginiz kelime cumlede sadece 1 tane var");} else {
             System.out.println("aradiginiz kelime cumlede birden fazla var");
         }
-
-
-
-
-
 
     }
 }

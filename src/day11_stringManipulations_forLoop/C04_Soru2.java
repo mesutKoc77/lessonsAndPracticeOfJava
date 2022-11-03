@@ -33,6 +33,4 @@ public class C04_Soru2 {
 
     }
 
-
-
 }

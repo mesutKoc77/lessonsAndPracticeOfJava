@@ -23,6 +23,7 @@ public class C02_ArrayList {
         List<String> yeniListemiz=new ArrayList<>();
         yeniListemiz=istenmeyenleriSil(liste,istenmeyenHarf);
         System.out.println(yeniListemiz);
+        //[Esra, Seher]
 
     }
 

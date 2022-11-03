@@ -45,15 +45,5 @@ public class sokrativ {
 
          */
 
-
-
-
-
-
-
-
-
-
-
     }
 }

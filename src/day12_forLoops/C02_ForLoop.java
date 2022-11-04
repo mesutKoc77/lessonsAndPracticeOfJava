@@ -23,15 +23,6 @@ public class C02_ForLoop {
             if (i%5==0) { System.out.print(i+" ");}
         }
 
-
-
-
-
-
-
-
-
-
-
+      scanedilen.close();
     }
 }

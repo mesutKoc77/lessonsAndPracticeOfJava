@@ -46,17 +46,7 @@ public class Hemsire extends Muhasebe{
 
         object class ı butun class alrın babasıdır.
 
-
          */
-
-
-
-
-
-
-
-
-
 
 
     }

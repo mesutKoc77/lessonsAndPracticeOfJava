@@ -3,7 +3,7 @@ package day34_inheritancedataTypeKullanimi;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CDizelCorolla extends BCorolla{
+public class  CDizelCorolla extends BCorolla{
 
 
     String yakit="Dizel";

@@ -75,9 +75,4 @@ able larını bulup çalıştırmam anlamına gelecektir.
 
     }
 
-
-
-
-
-
 }

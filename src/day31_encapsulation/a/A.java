@@ -10,10 +10,12 @@ public class A {
     private String prvt3;
 
     public String getPrvt3() {
+
         return prvt3;
     }
 
     public void setPrvt3(String prvt3) {
+
         this.prvt3 = prvt3;
     }
 
@@ -28,10 +30,12 @@ public class A {
      */
 
     public String getPrvt1() {
+
         return prvt1;
     }
 
     public void setPrvt2(String prvt2) {
+
         this.prvt2 = prvt2;
     }
 

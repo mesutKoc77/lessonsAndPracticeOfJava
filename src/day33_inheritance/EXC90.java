@@ -15,6 +15,11 @@ public class EXC90 extends DVolvo {
 
     }
 }
+/*
+yazdırrırsan :::
+VOLVO PARAMETRESİZ CONS
+kırmızıbir XC90
+ */
 
 /*
 java nın class lara otomatik koydugu constructorlar

@@ -10,10 +10,12 @@ public class C01 {
 
 
     public static String getHastaneAdi() {
+
         return hastaneAdi;
     }
 
     public int getYas() {
+
         return yas;
     }
 

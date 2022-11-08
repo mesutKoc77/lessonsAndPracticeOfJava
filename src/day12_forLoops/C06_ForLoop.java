@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class C06_ForLoop {
     public static void main(String[] args) {
-
         //no 48
         //2.12
 
@@ -26,6 +25,7 @@ public class C06_ForLoop {
          ; i++) {
 
             int birlerbasamagi=sayi%10;//aldık sayıyı, 10 a bolduk birler basaagıbı bulduk
+            System.out.println("deneme"+sayi);
 
             rakamlartoplami+=birlerbasamagi;//bu birler basamagını ralkamlar toplamnı ekledik.
 

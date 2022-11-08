@@ -6,6 +6,7 @@ public class C03_MethodOlusturma {
       verilen iki integer'i toplayip
       sonucu bize DÖNDÜREN bir method olusturun
      */
+
         int a=10;
         int b=20;
 
@@ -17,6 +18,10 @@ public class C03_MethodOlusturma {
         //bunları bir variable a da atayabiliriz.
 
     }
+
+
+
+
     /*
     Methodu main method un dışında class ın içinde oluşturacagız.
      */

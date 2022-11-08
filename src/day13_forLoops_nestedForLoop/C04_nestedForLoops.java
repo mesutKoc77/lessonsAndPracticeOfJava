@@ -34,16 +34,5 @@ public class C04_nestedForLoops {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

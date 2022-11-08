@@ -28,7 +28,7 @@ public class C03_AsalsayiKontrol {
                 //2 ye bolduk kala 0 değil, 3 bolduk kalan 0 değil,......hepsinde kalan 0 değil. o zaman
                 //asal mi ya true degerini atadıgımzdan şimdi aalmi=true degernin sout unu ekrana yazdıracak.
             {
-                asal=false;//ben asal a true degerinşi atamıştım. ama burda şunu soyledım EGER sayi bolu i kalan 0 ise
+              asal=false;//ben asal a true degerinşi atamıştım. ama burda şunu soyledım EGER sayi bolu i kalan 0 ise
                 //asal degerin artık false olacak. //onemli. atıyrm 18 is aldım 2 ye boldum kalan 0 ve hemen aşağıya indim.
                 //asal variable ına flag atadım ve dedim ki hemen true dan false cevir ve durdurarak ASAL DEĞİL de.
 

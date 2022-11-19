@@ -9,21 +9,23 @@ public class C01_ElemanlariToplama {
 
         int[] arr = {3, 5, 7, 10, -5, 0};
 
-        int sonuc=elemanlariTopla(arr); //sayı oldugu için dataturu int olacak, int yazdım ve variable ımın ismi sonuc
+        int sonuc = elemanlariTopla(arr); //sayı oldugu için dataturu int olacak, int yazdım ve variable ımın ismi sonuc
         //oldu, daha sonra method ismini verdim ve argument imide arraye karşılık gelen arr yaptım ve java bize
         //otomatik olarak method oluşturucak.
-        System.out.println("array'deki pozitif elementlerin toplami"+sonuc);
+        System.out.println("array'deki pozitif elementlerin toplami" + sonuc);
+
+
 
     }
 
     public static int elemanlariTopla(int[] arr) {
 
-        int toplam=0;
+        int toplam = 0;
 
 
-        for (int i = 0; i < arr.length ; i++) {
-            if (arr[i]>0){
-                toplam+=arr[i];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > 0) {
+                toplam += arr[i];
             }
 
         }

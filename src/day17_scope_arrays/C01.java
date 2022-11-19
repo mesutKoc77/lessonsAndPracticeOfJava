@@ -29,8 +29,6 @@ public class C01 {
         isim="Recep";
         soyisim="Lejon";
         aktifmi=true;
-
-
     }
 
 

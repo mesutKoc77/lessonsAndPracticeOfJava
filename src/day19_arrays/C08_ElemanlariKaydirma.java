@@ -13,7 +13,7 @@ public class C08_ElemanlariKaydirma {
         int[] arr = {4, 5, 6, 7};
         //once arrayın son elemntini geciici depoya alalım
 
-        int temp=arr[arr.length-1];
+        int temp = arr[arr.length - 1];
 
         /*
         3. ındeksin deeri ikinci nin deeri olsn
@@ -25,12 +25,12 @@ public class C08_ElemanlariKaydirma {
 
         //kodu yazmadan once ne yapmak istedigimi yukarı yazdım ve kodumu da buna göre ayarladım.
 
-        for (int i = arr.length-1; i >0 ; i--) {
-            arr[i]=arr[i-1];
+        for (int i = arr.length - 1; i > 0; i--) {
+            arr[i] = arr[i - 1];
         }
         //loop bittikten sonra da gececi depomdaki degeri de ilk index ime atayacagm
 
-        arr[0]=temp;
+        arr[0] = temp;
 
         System.out.println(Arrays.toString(arr));
 
@@ -41,7 +41,7 @@ public class C08_ElemanlariKaydirma {
          */
         //once sondaki bir yere alalım
 
-        int sondeger=yenideger[yenideger.length-1];
+        int sondeger = yenideger[yenideger.length - 1];
 
         //şimdi ise ne yapmak istiyorsam once onu bir yapısal olarak kuralım
 
@@ -50,20 +50,20 @@ public class C08_ElemanlariKaydirma {
         yenideger[2]=yenideger[1]
         yenideger[1]=yenideger[0]
          */
-        for (int i = yenideger.length-1; i >0 ; i--) {
-            yenideger[i]=yenideger[i-1];
+        for (int i = yenideger.length - 1; i > 0; i--) {
+            yenideger[i] = yenideger[i - 1];
         }
-       yenideger[0]=sondeger;
+        yenideger[0] = sondeger;
 
         System.out.println(Arrays.toString(yenideger));
 
         //method oluşturma ile yapsak?
-        int [] methodlakayrdirma={83,84,85,86,87,88,89};
+        int[] methodlakayrdirma = {83, 84, 85, 86, 87, 88, 89};
 
         kaydirma(methodlakayrdirma);
 
         //yeni ornek ama stringle
-        String[] stringarray= {"Ahmet","Gel" ,"Çay","İçelim"};
+        String[] stringarray = {"Ahmet", "Gel", "Çay", "İçelim"};
 
         kaydirmastring(stringarray);
 
@@ -71,51 +71,52 @@ public class C08_ElemanlariKaydirma {
         //ve bizi aşağıya yonlendirerek nasıl yaoardı?
         //sonucumuz ne yine stringarray ii çevirme ve deger olarak yine stringarrayi alacagz
 
-        stringarray=sagakaydir2(stringarray);//bak normalde direkt aşağıda tek tek yazıyorduk. data turu ne oalcak
+        stringarray = sagakaydir2(stringarray);//bak normalde direkt aşağıda tek tek yazıyorduk. data turu ne oalcak
         //ve sonuc olarak bana ne dondurecek ama biz burda hem sonucu yazdık heö de giriş degerleri
 
 
     }//peki bunu method oluşturma ile nasıl yapardım?
 
     public static String[] sagakaydir2(String[] stringarray) {
-        String sondegerimiz=stringarray[stringarray.length-1];
-        for (int i = stringarray.length-1; i >0 ; i--) {
-            stringarray[i]=stringarray[i-1];
-        }stringarray[0]=sondegerimiz;
+        String sondegerimiz = stringarray[stringarray.length - 1];
+        for (int i = stringarray.length - 1; i > 0; i--) {
+            stringarray[i] = stringarray[i - 1];
+        }
+        stringarray[0] = sondegerimiz;
 
         System.out.println(Arrays.toString(stringarray));
         return stringarray;
 
     }
 
-    public static int[] kaydirma( int[] birarrayalalim)//burda sariya boyamasının nedeni deger int, sonuc da int
+    public static int[] kaydirma(int[] birarrayalalim)//burda sariya boyamasının nedeni deger int, sonuc da int
     //normalde sen bunu int, int oldugundan void ile yapabilridin. ama int girip String olsun isteseydin
     //sarı da kalkardı." bu benim notum teyit edilmeli yine de emin degilim"
     {
 
-        int sondegerdepoda=birarrayalalim[birarrayalalim.length-1];
-        for (int i = birarrayalalim.length-1; i >0 ; i--) {
-            birarrayalalim[i]=birarrayalalim[i-1];
-        }birarrayalalim[0]=sondegerdepoda;
+        int sondegerdepoda = birarrayalalim[birarrayalalim.length - 1];
+        for (int i = birarrayalalim.length - 1; i > 0; i--) {
+            birarrayalalim[i] = birarrayalalim[i - 1];
+        }
+        birarrayalalim[0] = sondegerdepoda;
 
         System.out.println(Arrays.toString(birarrayalalim));
-       return birarrayalalim;
+        return birarrayalalim;
 
     }
-    public static String[] kaydirmastring( String[] birarrayalali) {
 
-        String sondegerdepoda=birarrayalali[birarrayalali.length-1];
-        for (int i = birarrayalali.length-1; i >0 ; i--) {
-            birarrayalali[i]=birarrayalali[i-1];
-        }birarrayalali[0]=sondegerdepoda;
+    public static String[] kaydirmastring(String[] birarrayalali) {
+
+        String sondegerdepoda = birarrayalali[birarrayalali.length - 1];
+        for (int i = birarrayalali.length - 1; i > 0; i--) {
+            birarrayalali[i] = birarrayalali[i - 1];
+        }
+        birarrayalali[0] = sondegerdepoda;
 
         System.out.println(Arrays.toString(birarrayalali));
         return birarrayalali;
 
     }
-
-
-
 
 
 }

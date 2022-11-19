@@ -24,8 +24,6 @@ public class C08_Scope {
         önemlidir.
          */
 
-
-
     }
 
 }

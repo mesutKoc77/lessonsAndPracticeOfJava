@@ -1,5 +1,7 @@
 package day15_whileLoop_doWhileLoop;
 
+import java.util.Scanner;
+
 public class C06_DowhileLoop {
     public static void main(String[] args) {
 
@@ -34,11 +36,6 @@ public class C06_DowhileLoop {
         bu konularar girmesin istiyorsan while loop kullanılabilir.
 
          */
-
-
-
-
-
 
 
 

@@ -5,13 +5,12 @@ import java.util.Arrays;
 public class C13_ArrayiSiralama {
 
 
-
     public static void main(String[] args) {
 
         /*
         verilen bir String arrati natural order ve ters sıralama yapıp yazdırın
          */
-        String [] arr={"fatih","Muhammet","Jacob","Dalyan","Bora","Esra","Mehmet"};
+        String[] arr = {"fatih", "Muhammet", "Jacob", "Dalyan", "Bora", "Esra", "Mehmet"};
 
         //natural ordera göre sıralmak için Arrays class ından sort metodu kullanılır.
 
@@ -29,20 +28,12 @@ public class C13_ArrayiSiralama {
         yeniarray[2]=arr[4]
        yeniarray[sonu]=arr[0]
          */
-       String [] tersSirali=new String[arr.length];
+        String[] tersSirali = new String[arr.length];
 
-        for (int i = 0; i <arr.length ; i++) {
-            tersSirali[i]=arr[arr.length-i-1];
+        for (int i = 0; i < arr.length; i++) {
+            tersSirali[i] = arr[arr.length - i - 1];
         }
         System.out.println(Arrays.toString(tersSirali));
-
-
-
-
-
-
-
-
 
 
     }

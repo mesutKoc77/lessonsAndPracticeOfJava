@@ -21,16 +21,5 @@ public class C02_WhileLoop {
         özlelikle artış miktarı unutulursa sonsuz loop oluşur.
          */
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

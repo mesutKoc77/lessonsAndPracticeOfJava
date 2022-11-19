@@ -1,5 +1,7 @@
 package day14_methodCreation;
 
+import java.util.Scanner;
+
 public class C05_MethodOlusturma {
     public static void main(String[] args) {
 
@@ -51,9 +53,8 @@ public class C05_MethodOlusturma {
         System.out.println(carpimMetodumuz(2, 3));//int int 6
         System.out.println(carpimMetodumuz(2, 3.4));// double double 6.8
 
-
-
     }
+
     //methodu oluşturlaım
 
     public static double carpimMetodumuz (double sayi1, double sayi2){
@@ -70,8 +71,5 @@ public class C05_MethodOlusturma {
     public static double carpimMetodumuz (double sayi1, double sayi2, double sayi3, double sayi4){
         return sayi1*sayi2*sayi3*sayi4;
     }
-
-
-
 
 }

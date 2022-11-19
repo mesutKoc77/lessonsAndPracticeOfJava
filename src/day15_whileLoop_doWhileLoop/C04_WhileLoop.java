@@ -31,8 +31,8 @@ public class C04_WhileLoop {
         while (sifredogrumu==false) // sifredogrumu == false demek boolean ımız false oldugu muddetce bu loop u çalıştır
             //demek. Açıklama: while in kuralı şu: while in iki prantezine yazdıgın şey, true olursa çalışır, ki zaten öle
             //oldu, ama " sifredogrumu == false " nın kısa ifadesi olarak başına üünlem işareti koyarak da bunu ifade
-            //edebiliriz. !sifredogrumu == false
-            {//sifre yanlışsa oldugu muddetçesurekli döndür, şifre yanlış oldugu muddetce
+            //edebiliriz. !sifredogrumu
+            {//sifre yanlış oldugu muddetçesurekli döndür, şifre yanlış oldugu muddetce
             // surekli tekrarla.
                 /*
                 aslında şöyle biz boolean ı false olarak atamaıştık, ama while ın içi true oldugu muddetce çalışır
@@ -56,11 +56,7 @@ public class C04_WhileLoop {
                 System.out.println("şifre kaydedildi");
                 //şimdi artık dönen loop u durdurmam gerekiyor, zira artık herşey dogru ve şifre kaydedildi.
                 //eger artık bayrak dıgru yu kaldırmazsa, dogru şifre girse dahi sürekli dönmeye devam edecektir.
-
             }
-
-            //1.00 kala
-
 
         }
 

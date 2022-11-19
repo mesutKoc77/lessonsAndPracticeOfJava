@@ -32,6 +32,7 @@ public class C06_Odev {
             case 1: //girdigim sayı asal mı?
                 System.out.println(girdigimSayiAsalmi(sayi1));
                 break;
+
             case 2://2-Sayi palindrome mu?"
                 System.out.println(sayipalindromemu(sayi1));
                 break;

@@ -25,6 +25,9 @@ public class C04_MethodOlusturma {
         System.out.println(yenidegereatadik);
 
     }
+
+
+
     public static String isimsoyisimBirlestirme (String isima,String soyisimb){
 
         String birlemisisim=isima.substring(0,1).toUpperCase()+

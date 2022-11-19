@@ -11,6 +11,7 @@ public class C03_Scope {
     int a=10;
     int b=20;
 
+
     public static void main(String[] args) {
         /*
    biz buradan a ve b ye ve string ulaşamayacgz, instance (object variables) olduklarından veya ststic olmakdıklarından
@@ -45,7 +46,6 @@ için degişir. x ogretmenin bransi degişrise sadece o ogretmeni etkiler.
         //C03_Scope'dan istedigimiz kadar obje oluşturduk. mesela toplamda 4 adet obje oluştrduk.
         C03_Scope obj2=new C03_Scope();
         C03_Scope obj3=new C03_Scope();
-
 
         /*
         br obje oluşturuldugunda Java, heap memory de o objeyi oluşturur ve o obje ye ozel instance variable lari o obje
@@ -102,12 +102,6 @@ için degişir. x ogretmenin bransi degişrise sadece o ogretmeni etkiler.
         System.out.println(obj2.a);//11
         obj2.a+=5;
         System.out.println(obj2.a);//16
-
-        //2.25
-
-
-
-
 
     }
 

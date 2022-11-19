@@ -6,6 +6,9 @@ public class C04_Scope {//burdaki class da ise instance object variable dan ziya
     int b;
     static int c;
 
+    static String deneme="mesut";
+    String instance="koc";
+
     public static void main(String[] args) {
         C04_Scope obj1=new C04_Scope();//burada obj1 oluştrudk. calss level de şnstance variable gitti, sadece b nin instance
         //variable oldugunu gordu ve b yi çekti. b ye deger atamadık ama default degeri olan 0 ı aldı.
@@ -47,14 +50,6 @@ public class C04_Scope {//burdaki class da ise instance object variable dan ziya
         System.out.println(obj2.a);//11
 
         C04_Scope obj3=new C04_Scope();
-
     }
-
-
-
-
-
-
-
 
 }

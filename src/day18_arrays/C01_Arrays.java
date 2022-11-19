@@ -3,7 +3,7 @@ package day18_arrays;
 public class C01_Arrays {
 
     public static void main(String[] args) //main methpdumuzun çalışması için gerekli olan string lerden oluşan bir
-            //array mış bu methodumuz.
+    //array mış bu methodumuz.
     {
         /*
         array aynı cinsten, aynı data turlerınden degerleri barindırır. ve bu arryaların kac tane eleman
@@ -46,11 +46,11 @@ public class C01_Arrays {
          */
         System.out.println("Hello World");
 
-        String str="Java Candir";
+        String str = "Java Candir";
 
         System.out.println(str.length());//11//burada length bir method idi ama array da ise degil. şoyle ki:
 
-        int [] arr1={3,5,7,8};
+        int[] arr1 = {3, 5, 7, 8};
         System.out.println(arr1.length);//bir method degil bir degerdir.//4
 
         //array de ilgili indeks e daha farklı sekilde ulaşırız. direk köşeli parantez ile bunu çözeriz.
@@ -59,18 +59,12 @@ public class C01_Arrays {
 
         //8 i silip 10 yazalım
 
-        arr1[3]=10;
+        arr1[3] = 10;
         System.out.println(arr1[3]);//10 oldu artık.
 
         //System.out.println(arr1[5]);//ArrayIndexOutOfBoundsException, sınırların dışından deger isteyemezsin
 
     }
-
-
-
-
-
-
 
 
 }

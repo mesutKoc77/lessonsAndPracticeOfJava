@@ -7,15 +7,12 @@ public class C02_Runner {
         bir class dan başka bir class daki staic variable ve methodlara ulaşmak için "classismi.variableIsmi" yazmak
         yeterlidir.
        bir class  dan başka bir class daki instance variable lara ulaşabilmek için obje (object) oluşturmamız gerekir.
-
-
-
          */
 
         System.out.println(C01.meslek);//static variable i çektim.
         C01.meslek="Hemsir";//static in ismini degiştirdim.
         System.out.println(C01.meslek);
-        C01.method1();//static methodu çektim.
+        C01.method1();//stati methodu çektim.
 
 
         C01 obj1=new C01();//şimdi java co1 class ına gitti , tüm instance variable lara ulaştı,onlardan birer kopya
@@ -45,7 +42,6 @@ public class C02_Runner {
         System.out.println(obj2.meslek);//"Yardimci Doktor" meslek static tir, bu satirdaki degerini bulmak istiyorsunuz
         //yukaırdan asagıya inersiniz ve atamanın oldugu yer varsa onu esas alırsınız ve atanan degeri dikkate alarak evet
         //meslek in adı degişti deriz.
-
 
     }
 }

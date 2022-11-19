@@ -3,8 +3,6 @@ package day17_scope_arrays;
 public class Sokrative {
 
 
-
-
     public static void main(String[] args) {
         /*int num=1;//1 den başla
 
@@ -43,14 +41,14 @@ public class Sokrative {
          */
 
         //char ifadeler matimatiksel işlemlerde işleme giriyorsa aski degerleriyle işleme giriyor.
-        System.out.println('a'+'b'+'c');//toplama yaptık
-        System.out.println("a "+ "b "+"c ");//harfleri yanyana yazdırmak isteseydik string yapar devam ederdik.
+        System.out.println('a' + 'b' + 'c');//toplama yaptık
+        System.out.println("a " + "b " + "c ");//harfleri yanyana yazdırmak isteseydik string yapar devam ederdik.
 
-        char ch='a';
-        while (ch<'d')//burda gelecek a nın sayısal degeri aski karşılıgı 20 olsun, 20 kucuktur b, b nin de
-            //aski degeri 30 olsun, 20 kucuktur 30 oldugundan loop donecektir.
+        char ch = 'a';
+        while (ch < 'd')//burda gelecek a nın sayısal degeri aski karşılıgı 20 olsun, 20 kucuktur b, b nin de
+        //aski degeri 30 olsun, 20 kucuktur 30 oldugundan loop donecektir.
         {
-            System.out.print(ch+" ");
+            System.out.print(ch + " ");
             ch++;
         }
 
@@ -65,31 +63,15 @@ public class Sokrative {
 
          */
 
-        int num=1;
+        int num = 1;
         do//şart yok dolayısyla hemen yaz  while gprene ve while da ki şartı saglayna  kadar.
         {
-            System.out.print(num+" ");
+            System.out.print(num + " ");
             num++;
-        } while (num<4);
-
-
-
-
-
-
-
-
-
-
-
-
-
+        } while (num < 4);
 
 
     }
-
-
-
 
 
 }

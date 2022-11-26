@@ -28,7 +28,6 @@ public class C02_ArrayList {
     }
 
 
-
     public static List<String> istenmeyenleriSil(List<String> liste, String istenmeyenHarf) {
         List<String> istenmeyenler=new ArrayList<>();
 

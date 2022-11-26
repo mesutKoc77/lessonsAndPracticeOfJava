@@ -7,8 +7,6 @@ import java.util.Arrays;
 public class C01_ArrayeElementEkleme {
 
 
-
-
     public static void main(String[] args) {
         int[] arr = {2, 4, 5};
         //Bu arrayin sonuna 3 elementini ekleyelim.
@@ -22,8 +20,6 @@ public class C01_ArrayeElementEkleme {
 
 
     }
-
-
 
 
 }

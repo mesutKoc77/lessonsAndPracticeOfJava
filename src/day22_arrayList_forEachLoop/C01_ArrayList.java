@@ -15,6 +15,25 @@ public class C01_ArrayList {
         istenenList=listeOlustur();
         System.out.println(istenenList);
 
+        List<String> bambaskaList=baskaListOlusturma();
+        System.out.println(bambaskaList);
+
+    }
+
+    private static List<String> baskaListOlusturma() {
+        Scanner scanner=new Scanner(System.in);
+        String ifade="";
+        List<String> bambaskaList=new ArrayList<>();
+        do {
+            System.out.println("Lutfen kelimeleri giriniz çıkmak için 0 a basiniz");
+            ifade=scanner.nextLine();
+            if (!ifade.equals("0")){
+                bambaskaList.add(ifade);
+            }
+
+        }while (!ifade.equals("0"));
+        return bambaskaList;
+
     }
 
     private static List<String> listeOlustur() {

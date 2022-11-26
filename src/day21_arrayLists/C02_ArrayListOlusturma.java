@@ -5,8 +5,8 @@ import java.util.List;
 
 public class C02_ArrayListOlusturma {
 
-    public static void main(String[] args){
-        List<Integer> sayilar=new ArrayList<>();//List, primitive data türlerini kabul etmez, non primitiveleri kabul
+    public static void main(String[] args) {
+        List<Integer> sayilar = new ArrayList<>();//List, primitive data türlerini kabul etmez, non primitiveleri kabul
         //eder.
 
         /*
@@ -25,15 +25,7 @@ public class C02_ArrayListOlusturma {
         System.out.println(sayilar);//[24, 32, 10]
 
 
-
-
-
-
-
     }
-
-
-
 
 
 }

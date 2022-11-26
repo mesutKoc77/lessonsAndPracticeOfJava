@@ -11,17 +11,17 @@ public class C01_binarySearch {
         // verilen bir arrayde istenen elementin
         // olup olmadigini kontrol etme
 
-        String[] arr = {"Fatih","Muhammet","Jacob","Dalyan","Bora","Esra","Naci"};
+        String[] arr = {"Fatih", "Muhammet", "Jacob", "Dalyan", "Bora", "Esra", "Naci"};
 
-        String arananElement="Muhammet";
+        String arananElement = "Muhammet";
 
-        C04_ElementArama.aranilandeger(arr,arananElement);
+        C04_ElementArama.aranilandeger(arr, arananElement);
 
         //java da da bir arama motoru vardır.
 
         System.out.println(Arrays.binarySearch(arr, arananElement));//-7
 
-        C04_ElementArama.aranilandeger(arr,"Dalyan");//1
+        C04_ElementArama.aranilandeger(arr, "Dalyan");//1
         System.out.println(Arrays.binarySearch(arr, "Dalyan"));//3
 
         /*
@@ -31,7 +31,7 @@ public class C01_binarySearch {
          */
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));//[Bora, Dalyan, Esra, Fatih, Jacob, Muhammet, Naci]
-        C04_ElementArama.aranilandeger(arr,"Fatih");//1 adet var ve
+        C04_ElementArama.aranilandeger(arr, "Fatih");//1 adet var ve
         System.out.println(Arrays.binarySearch(arr, "Fatih"));//3. index de.
 
         /*
@@ -47,17 +47,11 @@ public class C01_binarySearch {
         //lsaydı sıfırıncı index e gelecek başına eksi koyacaktı bununda matimatiksel bir karşılığı yoktur.
         //dolayısıyla index kullanılmadı. direkt sıra kullanıldı.
 
-        //binarysearch olursa index yazar ama yoksa sayıyı belirtir. vardı 5. index der yoksa 6. sıra der ve başına
+        //binarysearch, olursa index yazar ama yoksa sayıyı belirtir. vardı 5. index der yoksa 6. sıra der ve başına
         //eksi koyar.
 
 
-
-
-
-
     }
-
-
 
 
 }

@@ -11,6 +11,7 @@ public class C06_sublist {
         liste.add("Esra");
         liste.add("Seher");
         System.out.println(liste.subList(1, 3));//bir den uce kadar ama uc dahil degil.
+        //[Yahya, Esra]
 
     }
 }

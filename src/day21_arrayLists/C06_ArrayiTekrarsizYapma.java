@@ -46,7 +46,8 @@ public class C06_ArrayiTekrarsizYapma {
                 uzunluk++;
             }
 
-        }int [] yeniarray=new int[uzunluk];
+        }
+        int [] yeniarray=new int[uzunluk];
         for (int i = 0; i < benzersizList.size(); i++) {
             yeniarray[i]=benzersizList.get(i);
 

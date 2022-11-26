@@ -7,44 +7,45 @@ public class C09_ForEachLoop {
           tum elementlerin karelerini toplayip yazdirin
          */
 
-        int[] arr = {3,4,5,1};
-        int toplam=0;
-        for (int each:arr
-             ) {
-            toplam+=each*each;
+        int[] arr = {3, 4, 5, 1};
+        int toplam = 0;
+        for (int each : arr
+        ) {
+            toplam += each * each;
         }
-        System.out.println(" elementlerin karelerini toplami: "+toplam);
+        System.out.println(" elementlerin karelerini toplami: " + toplam);
 
 
-       //method ile yapsaydık
-        int[] yeni = {1,3,5,2};//39
+        //method ile yapsaydık
+        int[] yeni = {1, 3, 5, 2};//39
         kareleritoplami(yeni);
 
         //method un degerlerini burda belirleseydik
-        int [] burda = {3,5};//34
+        int[] burda = {3, 5};//34
 
-        int toplamlari=simdikareleritopla(burda);
+        int toplamlari = simdikareleritopla(burda);
 
 
     }
 
+
     private static int simdikareleritopla(int[] burda) {
-        int toplam=0;
-        for (int each:burda
+        int toplam = 0;
+        for (int each : burda
         ) {
-            toplam+=each*each;
+            toplam += each * each;
         }
         System.out.println(toplam);
 
         return toplam;
     }
 
-    public static int kareleritoplami(int [] array){
+    public static int kareleritoplami(int[] array) {
 
-        int toplam=0;
-        for (int each:array
+        int toplam = 0;
+        for (int each : array
         ) {
-            toplam+=each*each;
+            toplam += each * each;
         }
         System.out.println(toplam);
 

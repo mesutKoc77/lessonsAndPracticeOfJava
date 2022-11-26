@@ -6,9 +6,9 @@ import java.util.List;
 public class C07_size_get {
 
     public static void main(String[] args) {
-        String [] arr={"Fatih","Levent", "Esra","Seher"};
+        String[] arr = {"Fatih", "Levent", "Esra", "Seher"};
 
-        List<String> liste=new ArrayList<>();
+        List<String> liste = new ArrayList<>();
         liste.add("Fatih");
         liste.add("Levent");
         liste.add("Esra");
@@ -24,29 +24,18 @@ public class C07_size_get {
 
         //add methodun da istedigimiz bir elementei index ni belirterek belirli yere de koyabilriiz.
 
-        System.out.println("add den once"+liste);
-        liste.add(2,"Ayse");//2. index e Ayse yi ekle dedik.eski listeden hiçbir şey silmiyor.
-        System.out.println("add den sonra" +liste);//[Fatih, Levent, Ayse, Esra, Seher]
+        System.out.println("add den once" + liste);
+        liste.add(2, "Ayse");//2. index e Ayse yi ekle dedik.eski listeden hiçbir şey silmiyor.
+        System.out.println("add den sonra" + liste);//[Fatih, Levent, Ayse, Esra, Seher]
 
         //set ise eski index dekini siler yenisini yazar ve update eder.
 
-        liste.set(2,"Yasar");//yani 2. indexdeki Ayseyi silecek yerine Yasar gelecek
+        liste.set(2, "Yasar");//yani 2. indexdeki Ayseyi silecek yerine Yasar gelecek
 
         System.out.println(liste);//[Fatih, Levent, Yasar, Esra, Seher]
 
 
-
-
-
-
-
-
-
     }
-
-
-
-
 
 
 }

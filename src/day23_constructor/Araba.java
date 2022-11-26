@@ -13,15 +13,15 @@ public class Araba {
     defaut constructor parametresizdir ve body sinde hiç kod bulunmaz.
 
      */
-String model;
-String marka;
+    String model;
+    String marka;
 
-/*
-yok gibi gorunse de constructor, mutlaka gorunmeyen bir
-constructor vardır. Ve bu default constructor dır.
-Default constructor şu şekildededir:
- */
-    Araba(){
+    /*
+    yok gibi gorunse de constructor, mutlaka gorunmeyen bir
+    constructor vardır. Ve bu default constructor dır.
+    Default constructor şu şekildededir:
+     */
+    Araba() {
         /*
         kendimiz elimizle constructor eklersek buraya, buna
         parametresiz constructor denir, default constructor
@@ -34,7 +34,9 @@ Default constructor şu şekildededir:
          */
     }
 
-    Araba(String model){
+    Araba(String model) {
+
+
         /*
         ellerimizle constructor yaparsak default construr silinir.
         eger once default constructor ile bir obje yapmıs isek ve sonra
@@ -49,9 +51,6 @@ Default constructor şu şekildededir:
 
          */
     }
-
-
-
 
 
 }

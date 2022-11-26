@@ -10,26 +10,30 @@ public class C10_ForEachLoop {
           silip, kalani kismini bize donduren bir method olusturun.
          */
 
-        List<String> liste=new ArrayList<>();
+        List<String> liste = new ArrayList<>();
         liste.add("Eyup");
         liste.add("Yahya");
         liste.add("Esra");
         liste.add("Seher");
 
-        String istenmeyenHarf="E";
 
-        List<String> yeniListemiz=new ArrayList<>();
+        String istenmeyenHarf = "E";
 
-        yeniListemiz=eachileistenmeyen(liste,istenmeyenHarf);
+        List<String> yeniListemiz = new ArrayList<>();
+
+        yeniListemiz = eachileistenmeyen(liste, istenmeyenHarf);
         System.out.println(yeniListemiz);
 
     }
+
+
     private static List<String> eachileistenmeyen(List<String> liste, String istenmeyenHarf) {
-        List<String> yeniListemiz2=new ArrayList<>();
-        for (String each:liste
-             ) { if (!each.contains(istenmeyenHarf)){
-                 yeniListemiz2.add(each);
-        }
+        List<String> yeniListemiz2 = new ArrayList<>();
+        for (String each : liste
+        ) {
+            if (!each.contains(istenmeyenHarf)) {
+                yeniListemiz2.add(each);
+            }
 
         }
 

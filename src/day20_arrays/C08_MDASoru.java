@@ -11,7 +11,7 @@ public class C08_MDASoru {
           yazdirin
          */
 
-        int[][] arr= {{3,1,2,4},{1,2},{3,4,5},{10},{2,7}};
+        int[][] arr = {{3, 1, 2, 4}, {1, 2}, {3, 4, 5}, {10}, {2, 7}};
 
         // output [10, 3, 12, 10, 9]
 
@@ -19,17 +19,16 @@ public class C08_MDASoru {
 
         //önce bir kagıda yaz ciz ve dusun sonra kodlamaya gec
 
-        int [] yeniArray=new int[arr.length];
+        int[] yeniArray = new int[arr.length];
 
-        int elementlerinToplami=0;
+        int elementlerinToplami = 0;
 
-        for (int i = 0; i <arr.length ; i++) {
-            for (int j = 0; j <arr[i].length ; j++)
-            {
-                elementlerinToplami+=arr[i][j];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                elementlerinToplami += arr[i][j];
             }
-            yeniArray[i]=elementlerinToplami;
-            elementlerinToplami=0;
+            yeniArray[i] = elementlerinToplami;
+            elementlerinToplami = 0;
         }
         System.out.println(Arrays.toString(yeniArray));
 
@@ -37,18 +36,7 @@ public class C08_MDASoru {
         //onu da bitirdikten sonra yukarı çıkar.
 
 
-
-
-
-
-
-
-
-
-        }
-
-
-
-
-
     }
+
+
+}

@@ -11,6 +11,7 @@ public class C12_ForEachLoop {
         for-each loop kullanarak
         harfin cumlede kac kez gectigini bulup yazdirin
          */
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Lutfen Cumleyi Giriniz");
@@ -33,5 +34,12 @@ public class C12_ForEachLoop {
         } else {
             System.out.println(sayac);}
 
+
+
     }
-}
+
+
+
+
+
+    }

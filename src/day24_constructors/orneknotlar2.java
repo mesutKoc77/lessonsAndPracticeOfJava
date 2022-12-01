@@ -21,7 +21,8 @@ public class orneknotlar2 {
         orneknotlar2 obj1=new orneknotlar2();
         orneknotlar2 obj2=new orneknotlar2("Fatih",35);
 
-        System.out.println(obj1.isim + obj2.yas);
+        System.out.println("isim : "+obj1.isim + "yas : "+ obj2.yas);
+        //Seher, 30
     }
     /*
     ilk olarak main e gittik

@@ -9,23 +9,20 @@ public class ConstructorCall {
      2-ilk kuraldan doalyı tabii ki constructor ın içinde sadece bir tane constructor call yer alır.
      */
 
-    ConstructorCall(){
+    ConstructorCall() {
         System.out.println("parametresiz constructor calıştı");
     }
 
-    ConstructorCall(int sayi){
+    ConstructorCall(int sayi) {
         this();
         System.out.println("parametreli constructor calıştı");
     }
 
     public static void main(String[] args) {
 
-       ConstructorCall obj1=new ConstructorCall(20);
+        ConstructorCall obj1 = new ConstructorCall(20);
+
     }
-
-
-
-
 
 
 }

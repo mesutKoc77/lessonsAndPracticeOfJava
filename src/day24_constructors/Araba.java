@@ -1,18 +1,19 @@
 package day24_constructors;
 
-public class Araba
+public class Araba {
 //default constructor burada yani
     //çağırılan class dadır.
     //araba objesi oluştrumak istediginde
     //işte buradaki constructor default olarak
     //çağırılır...
 
-{
+
     int ilanNo;
-    String marka="deger atanmadi";
-    String model="deger atanmadi";
+    String marka = "deger atanmadi";
+    String model = "deger atanmadi";
     int yil;
     int fiyat;
+
 
     //özellikleri baştan atayabilmek için parametreli
     //constructor oluşturulaım.parametre isimilerinin instance variable isimileriyel aynı olması onemli.
@@ -21,12 +22,12 @@ public class Araba
 
      */
     //şimdi parametreli constructor ı manuel yapıyrm ve parametre isimlerifarklı olsun
-    public Araba(int ilnNo, String mrk, String mdl, int yl,int fyt){
-        ilanNo=ilnNo;
-        marka=mrk;
-        model=mdl;
-        yil=yl;
-        fiyat=fyt;
+    public Araba(int ilnNo, String mrk, String mdl, int yl, int fyt) {
+        ilanNo = ilnNo;
+        marka = mrk;
+        model = mdl;
+        yil = yl;
+        fiyat = fyt;
     }
     /*
     burda once ilanNo ya baktı ilgili scope da yok idi ve class level a gitti
@@ -55,11 +56,11 @@ public class Araba
     //bu duzelecektir. yani basa String getirdim devamını da aynı
     //sırada duzenledım.
     {
-        this.ilanNo=ilanNo;
-        this.marka=marka;
-        this.model=model;
-        this.yil=yil;
-        this.fiyat=fiyat;
+        this.ilanNo = ilanNo;
+        this.marka = marka;
+        this.model = model;
+        this.yil = yil;
+        this.fiyat = fiyat;
     }
     //burda ise yine scope a bakti, ilanNo yu yine gidip ilanNo ya atamışssın dedi.
     //cunku aynı scope içerisinde ilanNo var ve yukarı çıkmadı.
@@ -67,23 +68,14 @@ public class Araba
     //ve hemen gider bunun class level daki instance variable oldugunu anlar.
 
 
-
-
     //manuel constructor ekleidigm için diger class larda manuel leri çağırdıklarım hemen kırmızı ya döndü.
     //vunku java, manuel eklenen oldugundan default constructor ı sıldı. bunu silmememsi için de manuel olarak
     //parametresiz constructor ı eklemem gerekiyor.
 
     //paramaetresiz constructor
-    public Araba(){
+    public Araba() {
 
     }
-
-
-
-
-
-
-
 
 
     @Override//to String yani hepsini yazıdırmak için
@@ -95,7 +87,6 @@ public class Araba
                 ", yil=" + yil +
                 ", fiyat=" + fiyat;
     }
-
 
 
 }

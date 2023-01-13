@@ -19,7 +19,7 @@ public class Araba {
     //in içine gire gire atamaları yaparsın.
     {
         this();             //parametresiz de yil'a atama yapmış 2015 olarak
-        this.yil = yil;     // ama burada demiş ki ben artık bunu da override ettim ve signature vermiş oldugum int para
+        this.yil = yil;     // ama burada demiş ki ben artık bunu da override ettim ve signature da vermiş oldugum int para
         //metreyi kullan diyerek yukarıdaki atamayi boşa çıkardım.
         this.marka = marka;
 
@@ -32,7 +32,9 @@ public class Araba {
 
 
     public static void main(String[] args) {
-        Araba arb3 = new Araba(2018, "Volvo");//yukarıda 2018, volvo argumentleri ni yazdı sadece, ama once default
+        //Objeleri sout edebilmek için code generate den toString'i oluşturmalıyım
+        Araba arb3 = new Araba(2018, "Volvo");//yukarıda 2018, volvo argumentleri ni yazdı sadece, ama once
+        // default
         //olarak atanmış olan instance variable ları yazman gerekiyor yani arb3 ün yil=0 marka sı ise null dır.
         //Dersin ve aşağıdaki atamaları yapa yapa gidersin.
         System.out.println(arb3);//Araba :yil=2018, marka=Volvo

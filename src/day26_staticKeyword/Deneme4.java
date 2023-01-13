@@ -10,9 +10,9 @@ public class Deneme4 {
         this.yas=b;
         this.okul=c;
     }
-    public static void method1(Deneme4 dnm){
+    public static void method1(Deneme4 variable){
 
-        System.out.println("sayi" + dnm.sayi + "yas:" + dnm.yas + " " + "okul:" + dnm.okul);
+        System.out.println("sayi" + variable.sayi + "yas:" + variable.yas + " " + "okul:" + variable.okul);
     }
 
     public static void main(String[] args) {

@@ -3,8 +3,8 @@ package day26_staticKeyword;
 public class C05_PassByValue {
     public static void main(String[] args) {
 
-        int sayi=10;
-        sayi=method1(sayi);//eşitiliğin soluna atamayıp yazıdrsaydım aşagısı hala 10 yazazaktı ama şimdi 100 yazacak.
+        int sayi = 10;
+        sayi = method1(sayi);//eşitiliğin soluna atamayıp yazıdrsaydım aşagısı hala 10 yazazaktı ama şimdi 100 yazacak.
         //burada sayi nin kendisini de degil value sunu method a yolladık.sayi henuz degişmedi ama atama yaparsak
         //degişmiş olur ki atmaasını da yaptık. yani java da her zaman bu boyledir variable ın kendiis de degil value
         //su method agider.
@@ -19,10 +19,13 @@ public class C05_PassByValue {
 
         System.out.println(sayi);//100
 
+
+
     }
-    public static int method1(int sayi){
-        sayi=sayi*sayi;
-    return sayi;
+
+    public static int method1(int sayi) {
+        sayi = sayi * sayi;
+        return sayi;
     }
 
     /*
@@ -31,7 +34,7 @@ public class C05_PassByValue {
     ın degeri nedir diye sorarsan atama yapmadıgından eski degeri yazdıracAKtır.buna pass by value denir.
     once variable ıma şu degeri atasam ne olurdu sorusunu sordugumda bir problemle karşılaşmamak için öncesinden variable
     ımın degişmemesini sağlamama pass by value denir.
-    eger methodda atanan degerin kalıcı olmasını istiyorssqak bunu main method da ilgili variable a atamamız gerekiyor.
+    eger methodda atanan degerin kalıcı olmasını istiyorsak bunu main method da ilgili variable a atamamız gerekiyor.
     pas by value veya digeinin kararını dili yaznlar karar veriyor, bizimle alakalı bir durum degil.
     java, bir arabanın sarı olsa nasıl olurdu sorusuna hemen arabayı sarıya boyayarak cevap vermemiş, o arabanın
     kopyasını sarıya boyayarak kararını vermiş.

@@ -12,6 +12,8 @@ public class EXC90 extends DVolvo {
     public static void main(String[] args) {
 
         EXC90 obj1=new EXC90("kırmızı");
+        //EXC90 classındaki variable ve methodları içine alacak şekilde ama tekil parametreli constructor i kullanarak
+        //bır obje oluşturuyrum.
 
     }
 }

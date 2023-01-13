@@ -11,7 +11,8 @@ public class FXC90 extends DVolvo {
      }
      FXC90(String renk, String yakit){
          //super(String renk, String yakit);--parent class da yok ondan dolayı CTE.
-         this("mavi");
+         this("mavi");//this. dersen class seviyesindeki variable lara, this() dersen de ilgili constructor lara
+         //erişebilrisin.
          //biz buraya this yazıp constructor cagırdıgımızdan
          //ve bir sonstructor ın içinde bir tane constructor
          //call olacagından super constructor da öldü.

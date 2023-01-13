@@ -1,10 +1,8 @@
 package day26_staticKeyword;
 
-import day14_methodCreation.C01_kendiSubstringMethodumuz;
-
 public class StaticMethod {
-    static int sayi=20;
-    int yas=40;
+    static int sayi = 20;
+    int yas = 40;
 
     public static void main(String[] args) {
         sayi++;
@@ -14,11 +12,12 @@ public class StaticMethod {
 
     }
 
-    public static void method1(){
+    public static void method1() {
         sayi++;
         //yas++;
     }
-    public void method2(){
+
+    public void method2() {
         sayi++;
         yas++;
         method1();
